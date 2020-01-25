@@ -35,7 +35,7 @@ apt-get install -y \
   postfix mailutils libsasl2-2 libsasl2-modules ca-certificates libnss3-tools \
   apt-transport-https openssl redis-server nginx \
   python ruby ruby-dev openjdk-8-jdk openjdk-8-jre \
-  vim git git-flow
+  vim git git-flow gnupg2
 
 # Php Repository
 wget -q https://packages.sury.org/php/apt.gpg -O- | apt-key add -
